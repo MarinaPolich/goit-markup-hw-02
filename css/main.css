@@ -1,39 +1,73 @@
 .hero-title {
+    background-color: #2F303A;
     color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
 }
 
 .section-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* features */
 .features .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* directions */
 
 /* team */
+.team {
+    background-color: var(--button-bg-color);
+}
+
 .team .title {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 /* button */
 .button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+
     width: 216px;
     height: 50px;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border: none;
 }
-
-/* .button.primary {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-}
-.button.secondary {
-    background-color: var(--primary-white-color);
-    color: var(--accent-color);
-} */
