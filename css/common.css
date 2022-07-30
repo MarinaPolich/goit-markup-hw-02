@@ -1,0 +1,51 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый #FFFFFF */
+/* цвет текста адреса rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --logo-color: #000;
+    --button-bg-color: #F5F4FA;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contact .contact-link {
+    color: var(--primary-text-color);;
+}
