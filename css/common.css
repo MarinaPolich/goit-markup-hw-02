@@ -38,6 +38,10 @@ body {
     text-decoration: none;
 }
 
+footer .logo {
+    color: var(--primary-white-color);
+}
+
 /* site nav */
 .site-nav .link {
     color: var(--title-text-color);
